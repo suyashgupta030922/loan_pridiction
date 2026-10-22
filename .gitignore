@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Data & Models (if user desires git exclusion, though we document model generation)
+instance/*.db
+*.sqlite3
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
